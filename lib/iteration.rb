@@ -39,13 +39,13 @@ index = 0
 
 while index < src.length do
   
-  if src[index] > current
+  if src[index] >= current
 
     current = src[index]
   end
   index += 1
 
-
+end
 end
 
 
